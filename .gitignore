@@ -1,8 +1,10 @@
-# Byte compiled
-__pycache__/
-/__pycache__
-*.py[cod]
-*$py.class
+test.csv
+train.csv
+val.csv
+datasets/text_analytics/financial/**
+TextAnalytics/embeddings/.ipynb_checkpoints/
+TextAnalytics/embeddings/.vector_cache/
+models/
 
 # C extensions
 *.so
@@ -45,12 +47,3 @@ coverage.xml
 *.cover
 .hypothesis/
 .pytest_cache/
-
-# jupyter notebook
-.ipynb_checkpoints
-*.ipynb_checkpoints
-
-# user specific stuff
-.idea/
-.idea
-
